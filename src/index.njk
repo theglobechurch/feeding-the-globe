@@ -1,0 +1,16 @@
+---
+layout: base.njk
+eleventyExcludeFromCollections: true
+---
+
+<h1>{{ metadata.title }}</h1>
+
+<ul>
+{% for recipe in collections.recipes %}
+  <li>
+    <a href="{{ recipe.url }}" class="listing__local">
+      <h2>{{ recipe.data.name }}</h2>
+    </a>
+  </li>
+{% endfor %}
+</ul>
