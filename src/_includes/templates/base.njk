@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+		<title>{{ metadata.title }}{% if title %} - {{ title }}{% endif %}</title>
+
+    <meta name="description" content="{{ subtitle | default(metadata.description) }}" />
+    <meta itemprop="description" content="{{ subtitle | default(metadata.description) }}">
+
+    <meta property="og:title" content="{{ metadata.title }}{% if title %} - {{ title }}{% endif %}" />
+
+    {% if canonical %}
+    <link rel="canonical" href="{{ canonical }}" />
+    {% endif %}
+
+    <link rel="stylesheet" href="/assets/css/tgc-fractal.css" />
+
+  </head>
+
+  <body>
+
+    <main class="c-main" role="main">
+
+      <section class="c-banner  js-object-fit-container">
+        <div class="c-banner__text">
+          <div class="site-container">
+            <h1 class="c-banner__title">{{ title | default(metadata.title) }}</h1>
+            <h2 class="c-banner__subtitle">{{ subtitle | default(metadata.description) }}</h2>
+          </div>
+        </div>
+      </section>
+
+      <div class="site-container">
+
+        {% if not title %}
+        <section class="c-content-box">
+          <main class="c-content-box__main">
+            <div class="c-content-box__main__container">
+              <h1>The Globe Church</h1>
+              <p>We are a church based near London Bridge.</p>
+              <a href="https://www.globe.church" class="u-link u-link--arrowed u-link--black">
+                {# SVG ICON SHOULD GO HERE #}
+                <span>Go the church website</span>
+              </a>
+            </div>
+          </main>
+        </section>
+
+        <br /><br /> {# This is an ugly hack, someone should fix it #}
+
+        {% endif %}
+
+        <section class="c-content-box">
+          <main class="c-content-box__main">
+            <div class="c-content-box__main__container">
+
+              {{ layoutContent | safe }}
+
+            </div>
+          </main>
+        </section>
+      </div>
+    </main>
+
+
+  </body>
+</html>
