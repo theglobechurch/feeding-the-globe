@@ -1,34 +1,17 @@
+---json
+{
+"title": "Greek Lamb",
+"subtitle": "A classic favourite at The Globe Church…",
+"country": "Greece",
+"ingredients": {
+"Greek Lamb": ["Lamb mince", "Spice Mix (Coriander, salt, pepper, and mint sauce)"],
+"Rice": ["Rice (ideally basmati)", "Sliced black olives and brine", "Spinach"],
+"Tzatziki": ["Greek yoghurt","Mint sauce"],
+"Salad": ["Diced cucumber","Shredded iceberg lettuce","Diced feta cheese","Green olives", "Dressing: balsamic vinegar, oil, and sugar in a 2:2:1 ratio"]
+}
+}
+
 ---
-title: Greek Lamb
-subtitle: A classic favourite at The Globe Church…
-country: Greece
----
-
-## Ingredients
-
-### Greek lamb
-
-- Lamb mince
-- Spice Mix (Coriander, salt, pepper, and mint sauce)
-
-### Rice
-
-- Rice (ideally basmati)
-- Sliced black olives and brine
-- Spinach
-
-### Tzatziki
-
-- Greek yoghurt
-- Mint sauce
-
-### Greek salad
-
-- Diced cucumber
-- Shredded iceberg lettuce
-- Diced feta cheese
-- Green olives
-- Dressing: balsamic vinegar, oil, and sugar in a 2:2:1 ratio
 
 ## Method
 

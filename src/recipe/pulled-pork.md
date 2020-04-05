@@ -1,27 +1,16 @@
+---json
+{
+"title": "Pulled Pork",
+"subtitle": "A classic favourite at The Globe Church…",
+"country": "United States of America",
+"ingredients": {
+"Pulled Pork": ["Pork Steak", "BBQ sauce"],
+"Vegan option": ["Root vegetables", "BBQ sauce"],
+"Coleslaw": ["Carrot", "Cabbage", "Onion", "Mayonnaise"]
+}
+}
+
 ---
-title: Pulled Pork
-subtitle: A classic favourite at The Globe Church…
-country: United States
----
-
-## Ingredients
-
-### Pulled Pork
-
-- Pork steak
-- BBQ sauce
-
-### Veg option
-
-- Root vegetables
-- BBQ sauce
-
-### Coleslaw
-
-- Carrot
-- Cabbage
-- Onion
-- Mayonnaise
 
 ## Method
 

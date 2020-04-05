@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "node_modules/globe-fractal/dist": "assets" });
 
   eleventyConfig.addLayoutAlias("default", "templates/base.njk");
+  eleventyConfig.addLayoutAlias("main", "templates/base.njk");
   eleventyConfig.addLayoutAlias("recipe", "templates/recipe.njk");
 
   return {

@@ -2,6 +2,25 @@
 layout: default
 ---
 
-{{ layoutContent | safe }}
+<div class="c-content-box__main__container">
+  {{ layoutContent | safe }}
 
-<a href="/">Back to all recipes</a>
+  <a href="/">Back to all recipes</a>
+</div>
+
+{% if ingredients %}
+<aside class="c-content-box__aside">
+  <h2>Ingredients</h2>
+  {% for heading, items in ingredients %}
+      <h3>{{ heading }}:</h3>
+      <ul>
+      {% for item in items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+      </ul>
+
+  {% endfor %}
+</aside>
+{% endif %}
+
+
