@@ -1,7 +1,7 @@
 ---json
 {
 "title": "Moroccan Chicken",
-"subtitle": "A classic favourite at The Globe Church…",
+"subtitle": "",
 "country": "Morocco",
 "ingredients": {
 "Chicken option": ["Diced chicken breast", "Whole lemon", "Apricot jam", "Vegetables: chick peas, whole green beans, sweetcorn, carrots", "Chicken stock cubes"],

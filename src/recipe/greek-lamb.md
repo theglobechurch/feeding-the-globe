@@ -1,7 +1,7 @@
 ---json
 {
 "title": "Greek Lamb",
-"subtitle": "A classic favourite at The Globe Church…",
+"subtitle": "",
 "country": "Greece",
 "ingredients": {
 "Greek Lamb": ["Lamb mince", "Spice Mix (Coriander, salt, pepper, and mint sauce)"],

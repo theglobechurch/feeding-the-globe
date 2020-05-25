@@ -1,7 +1,7 @@
 ---json
 {
 "title": "Chicken Curry",
-"subtitle": "A classic favourite at The Globe Church…",
+"subtitle": "",
 "country": "India",
 "ingredients": {
 "Chicken Curry": ["Diced chicken breast", "Chick peas", "Red lentils", "Creamed coconut", "Tikka Masala/Korma curry paste", "Mixed vegetables, spinach or cauliflower", "Salt and pepper"],
